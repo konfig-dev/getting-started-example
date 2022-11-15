@@ -1,21 +1,17 @@
-filterQueryParams:
-  - clientId
-  - timestamp
-filterTags:
-  - Webhooks
-allObjectsHaveAdditionalProperties: true
+allObjectsHaveAdditionalProperties:
+  requestBody: false
 generators:
   java:
-    files:
-      gitignore.mustache:
-        destinationFilename: .gitignore
-      Configuration.mustache:
-        destinationFilename: src/main/java/com/konfigthis/client/Configuration.java
-      ApiClient.mustache:
-        destinationFilename: src/main/java/com/konfigthis/client/ApiClient.java
-      build.gradle.mustache:
-        destinationFilename: build.gradle
-      JSON.mustache:
-        destinationFilename: src/main/java/com/konfigthis/client/JSON.java
+    version: 1.0.0
     groupId: com.konfigthis
     artifactId: tutorial-java-sdk
+  python:
+    version: 1.0.0
+    packageName: tutorial_client
+    projectName: tutorial-python-sdk
+  typescript:
+    version: 1.0.0
+    npmName: tutorial-typescript-sdk
+    git:
+      userId: MY_GIT_USER_ID
+      repoId: MY_GIT_REPO_ID
