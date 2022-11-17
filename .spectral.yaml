@@ -1,1 +1,1 @@
-extends: ["https://unpkg.com/konfig-spectral-ruleset@latest/dist/ruleset.js"]
+extends: [".konfig/ruleset.js"]
