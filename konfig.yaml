@@ -10,6 +10,3 @@ generators:
   typescript:
     version: 1.0.0
     npmName: tutorial-typescript-sdk
-    git:
-      userId: MY_GIT_USER_ID
-      repoId: MY_GIT_REPO_ID
