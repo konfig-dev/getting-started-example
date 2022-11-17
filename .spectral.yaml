@@ -1,1 +1,4 @@
 extends: ["spectral:oas", ".konfig/ruleset.js"]
+rules:
+  operation-description: off
+  operation-success-response: off
