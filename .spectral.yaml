@@ -1,1 +1,1 @@
-extends: [".konfig/ruleset.js"]
+extends: ["spectral:oas", ".konfig/ruleset.js"]

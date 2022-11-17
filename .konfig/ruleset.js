@@ -78,18 +78,6 @@ var NodeFormat;
 // src/ruleset.ts
 var ruleset_default = {
   rules: {
-    "paths-kebab-case": {
-      description: "Should paths be kebab-case.",
-      message: "{{property}} should be kebab-case (lower case and separated with hyphens).",
-      given: "$.paths[*]~",
-      then: {
-        function: import_spectral_functions.pattern,
-        functionOptions: {
-          match: "^(/|[a-z0-9-.]+|{[a-zA-Z0-9_]+})+$"
-        }
-      },
-      severity: DiagnosticSeverity.Warning
-    },
     "no-http-basic": {
       description: "Consider a more secure alternative to HTTP Basic",
       message: "HTTP Basic is a pretty insecure way to pass credentials around, please consider an alternative.",
