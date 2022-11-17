@@ -1,7 +1,7 @@
 generators:
   java:
     version: 1.0.0
-    groupId: com.konfigthis
+    groupId: com.tutorial
     artifactId: tutorial-java-sdk
   python:
     version: 1.0.0
