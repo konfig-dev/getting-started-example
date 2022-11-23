@@ -13,3 +13,7 @@ generators:
   csharp:
     version: 1.0.0
     packageName: Demo.Net
+  swift:
+    version: 1.0.1
+    projectName: Demo
+    podAuthors: demo.com
