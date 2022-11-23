@@ -1,6 +1,3 @@
 {
-  "spectral.enable": true,
-  "python.analysis.extraPaths": [
-    "./out/sdks/python"
-  ]
+  "spectral.enable": true
 }
