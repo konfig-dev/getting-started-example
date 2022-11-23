@@ -1,12 +1,15 @@
 generators:
   java:
     version: 1.0.0
-    groupId: com.tutorial
-    artifactId: tutorial-java-sdk
+    groupId: com.demo
+    artifactId: demo-java-sdk
   python:
     version: 1.0.0
-    packageName: tutorial_client
-    projectName: tutorial-python-sdk
+    packageName: demo_client
+    projectName: demo-python-sdk
   typescript:
     version: 1.0.0
-    npmName: tutorial-typescript-sdk
+    npmName: demo-typescript-sdk
+  csharp:
+    version: 1.0.0
+    packageName: Demo.Net
