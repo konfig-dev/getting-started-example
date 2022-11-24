@@ -17,6 +17,19 @@ generators:
     version: 1.0.0
     projectName: Tutorial
     podAuthors: tutorial.com
+  objc:
+    version: 1.0.0
+    podName: TutorialClient
+    authorName: tutorial.com
+    authorEmail: engineering@tutorial.com
+    classPrefix: T
+  kotlin:
+    version: 1.0.0
+    groupId: com.tutorial
+    artifactId: tutorial-kotlin-sdk
+  go:
+    version: 1.0.0
+    packageName: tutorial
   php:
     version: 1.0.0
     packageName: tutorial-php
