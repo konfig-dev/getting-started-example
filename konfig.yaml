@@ -1,35 +1,49 @@
+allObjectsHaveAdditionalProperties:
+  requestBody: false
+outputDirectory: /tmp/acme-sdks-out
+specPath: petstore.yaml
 generators:
   java:
     version: 1.0.0
-    groupId: com.tutorial
-    artifactId: tutorial-java-sdk
+    groupId: com.acme
+    artifactId: acme-java-sdk
+    outputDirectory: java
   python:
     version: 1.0.0
-    packageName: tutorial_client
-    projectName: tutorial-python-sdk
+    packageName: acme_client
+    projectName: acme-python-sdk
+    outputDirectory: python
   typescript:
     version: 1.0.0
-    npmName: tutorial-typescript-sdk
+    npmName: acme-typescript-sdk
+    outputDirectory: typescript
   csharp:
     version: 1.0.0
-    packageName: Tutorial.Net
+    packageName: Acme.Net
+    outputDirectory: csharp
+    logoPath: logo.png
   swift:
     version: 1.0.0
-    projectName: Tutorial
-    podAuthors: tutorial.com
+    projectName: Acme
+    podAuthors: acme.com
+    outputDirectory: swift
   objc:
     version: 1.0.0
-    podName: TutorialClient
-    authorName: tutorial.com
-    authorEmail: engineering@tutorial.com
-    classPrefix: T
+    podName: AcmeClient
+    authorName: acme.com
+    authorEmail: engineering@acme.com
+    classPrefix: A
+    outputDirectory: objc
   kotlin:
     version: 1.0.0
-    groupId: com.tutorial
-    artifactId: tutorial-kotlin-sdk
+    groupId: com.acme
+    artifactId: acme-kotlin-sdk
+    outputDirectory: kotlin
   go:
     version: 1.0.0
-    packageName: tutorial
+    packageName: acme
+    outputDirectory: go
   php:
     version: 1.0.0
-    packageName: tutorial-php
+    packageName: acme-php
+    outputDirectory: php
