@@ -17,6 +17,9 @@ generators:
     version: 1.0.0
     npmName: acme-typescript-sdk
     outputDirectory: typescript
+    git:
+      userId: MY_GIT_USER_ID
+      repoId: MY_GIT_REPO_ID
   csharp:
     version: 1.0.0
     packageName: Acme.Net
