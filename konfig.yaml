@@ -1,5 +1,3 @@
-allObjectsHaveAdditionalProperties:
-  requestBody: false
 outputDirectory: /tmp/acme-sdks-out
 specPath: petstore.yaml
 generators:
