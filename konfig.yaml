@@ -8,28 +8,40 @@ generators:
     groupId: com.acme
     artifactId: acme-java-sdk
     outputDirectory: java
+    git:
+      userId: konfig-dev
+      repoId: getting-started-example/tree/master/java
   python:
     version: 1.0.0
     packageName: acme_client
     projectName: acme-python-sdk
     outputDirectory: python
+    git:
+      userId: konfig-dev
+      repoId: getting-started-example/tree/master/python
   typescript:
     version: 1.0.0
     npmName: acme-typescript-sdk
     outputDirectory: typescript
     git:
-      userId: MY_GIT_USER_ID
-      repoId: MY_GIT_REPO_ID
+      userId: konfig-dev
+      repoId: getting-started-example/tree/master/typescript
   csharp:
     version: 1.0.0
     packageName: Acme.Net
     outputDirectory: csharp
     logoPath: logo.png
+    git:
+      userId: konfig-dev
+      repoId: getting-started-example/tree/master/csharp
   swift:
     version: 1.0.0
     projectName: Acme
     podAuthors: acme.com
     outputDirectory: swift
+    git:
+      userId: konfig-dev
+      repoId: getting-started-example/tree/master/swift
   objc:
     version: 1.0.0
     podName: AcmeClient
@@ -37,16 +49,28 @@ generators:
     authorEmail: engineering@acme.com
     classPrefix: A
     outputDirectory: objc
+    git:
+      userId: konfig-dev
+      repoId: getting-started-example/tree/master/objc
   kotlin:
     version: 1.0.0
     groupId: com.acme
     artifactId: acme-kotlin-sdk
     outputDirectory: kotlin
+    git:
+      userId: konfig-dev
+      repoId: getting-started-example/tree/master/kotlin
   go:
     version: 1.0.0
     packageName: acme
     outputDirectory: go
+    git:
+      userId: konfig-dev
+      repoId: getting-started-example/tree/master/go
   php:
     version: 1.0.0
     packageName: acme-php
     outputDirectory: php
+    git:
+      userId: konfig-dev
+      repoId: getting-started-example/tree/master/php
