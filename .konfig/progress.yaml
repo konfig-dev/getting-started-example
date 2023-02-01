@@ -1,0 +1,79 @@
+operationIds:
+  /pet:
+    post: pet_add
+    put: pet_update
+  /pet/findByStatus:
+    get: pet_findByStatus
+  /pet/findByTags:
+    get: pet_findByTags
+  /pet/{petId}:
+    delete: pet_delete
+    get: pet_getById
+    post: pet_updateWithForm
+  /pet/{petId}/uploadImage:
+    post: pet_upload
+  /store/inventory:
+    get: store_getInventory
+  /store/order:
+    post: store_placeOrder
+  /store/order/{orderId}:
+    delete: store_deleteOrder
+    get: store_getOrderById
+  /user:
+    post: user_create
+  /user/createWithArray:
+    post: user_createWithArray
+  /user/createWithList:
+    post: user_createWithList
+  /user/login:
+    get: user_login
+  /user/logout:
+    get: user_logout
+  /user/{username}:
+    delete: user_delete
+    get: user_getByName
+    put: user_update
+renameTags: {}
+operationTags: {}
+examples: {}
+securityParameters:
+  status:
+    query: false
+  tags:
+    query: false
+  username:
+    query: false
+  password:
+    query: false
+examples_2: {}
+requestSchemaNames:
+  /pet/{petId}:
+    post:
+      application/x-www-form-urlencoded: PetUpdateWithFormRequest
+  /pet/{petId}/uploadImage:
+    post:
+      multipart/form-data: PetUploadImageRequest
+  /user/createWithArray:
+    post:
+      application/json: UserCreateWithArrayRequest
+responseSchemaNames:
+  /pet/findByStatus:
+    get:
+      '200':
+        application/xml: PetFindByStatusResponse
+        application/json: PetFindByStatusJsonResponse
+  /pet/findByTags:
+    get:
+      '200':
+        application/xml: PetFindByTagXmlResponse
+        application/json: PetFindByTagJsonResponse
+  /store/inventory:
+    get:
+      '200':
+        application/json: StoreGetInventoryResponse
+  /user/login:
+    get:
+      '200':
+        application/xml: UserLoginResponse
+        application/json: UserLoginJsonResponse
+responseDescriptions: {}
