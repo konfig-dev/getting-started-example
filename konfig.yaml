@@ -67,10 +67,3 @@ generators:
     git:
       userId: konfig-dev
       repoId: getting-started-example/tree/master/go
-  php:
-    version: 1.0.0
-    packageName: acme-php
-    outputDirectory: php
-    git:
-      userId: konfig-dev
-      repoId: getting-started-example/tree/master/php
